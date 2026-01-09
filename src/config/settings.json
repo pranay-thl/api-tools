@@ -1,0 +1,13 @@
+{
+    "app": {
+        "name": "WRCardGameServer",
+        "host": "localhost",
+        "port": "8081",
+        "cors": ["http://localhost:8080"],
+        "env": "dev"
+
+    },
+    "db": {
+        "uri": ""
+    }
+}

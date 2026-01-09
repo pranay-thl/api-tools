@@ -1,0 +1,48 @@
+{
+  "name": "api-tools",
+  "version": "1.0.0",
+  "description": "API Tools",
+  "main": "app.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranay-thl/api-tools.git"
+  },
+  "author": "pranay-thl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranay-thl/api-tools/issues"
+  },
+  "homepage": "https://github.com/pranay-thl/api-tools",
+  "dependencies": {
+    "@types/compression": "^1.8.1",
+    "@types/cors": "^2.8.19",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^20.19.27",
+    "@types/uuid": "^9.0.8",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.4",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "express": "^4.22.1",
+    "express-validator": "^7.3.1",
+    "helmet": "^7.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.21.0",
+    "morgan": "^1.10.1",
+    "nconf": "^0.12.1",
+    "rimraf": "^5.0.10",
+    "typescript": "^5.9.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.42",
+    "@types/nconf": "^0.10.7"
+  }
+}
